@@ -1,16 +1,16 @@
 //header - styles for header
 
 .header {
-	background-color: #49BDCA;
+	background-color: $c-blue;
 	width: 100%;
 	height: 42px;
 	position: fixed;
 	top: 0;
 	z-index: 100;
-	box-shadow: 0 3px 10px #424242;
+	box-shadow: 0 3px 10px $c-black;
 
 	&__content {
-		color: #fff;
+		color: $c-white;
 		padding: 0;
 		margin: 10px 0 0 10px;
 		float: left;

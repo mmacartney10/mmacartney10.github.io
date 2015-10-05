@@ -1,10 +1,13 @@
 //footer styles
 
 .footer {
-	background-color: #49BDCA;
+	background-color: $c-blue;
     width: 96%;
     padding: 0 2%;
 	display: inline-block;
+	box-shadow: 0 -1px 8px $c-black;
+    position: fixed;
+    bottom: 0;
 
 	&__list {
 	    padding: 0;
@@ -16,20 +19,22 @@
 	    list-style-type: none;
 	    display: inline-block;
 	    padding: 0 10px;
-	    color: #fff;
+	    color: $c-white;
 	}
 
 	&__content {
 		display: inline-block;
-		color: #fff;
+		color: $c-white;
 		float: right;
+		margin: 0;
+		padding: 20px 0;
 	}
 
 	&__link {
 		text-decoration: none;
-		color: #fff;
+		color: $c-white;
 		display: inline-block;
-		padding: 16px 0;
+		padding: 20px 0;
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;
 		-o-transition: all 0.3s ease;

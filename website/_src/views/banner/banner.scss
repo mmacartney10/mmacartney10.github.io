@@ -8,10 +8,12 @@
     position: relative;
 
     &__image {
-    	width: 100%;
+    	width: auto;
+        height: 300px;
 
         @include respond-max {
             width: 150%;
+            height: auto;
             position: relative;
             left: -40%;
         }

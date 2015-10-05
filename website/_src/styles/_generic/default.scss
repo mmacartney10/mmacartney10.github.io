@@ -4,6 +4,14 @@ body {
 	margin: 0;
 	font-family: 'Open Sans',Verdana,Arial,sans-serif;
 }
+  ///////////
+ //colours//
+///////////
+
+$c-blue: #49BDCA;
+$c-white: #ffffff;
+$c-grey: #424242;
+$c-black: #232323;
 
 @mixin respond-min {
 	@media screen and (min-width: 670px) {
@@ -19,10 +27,11 @@ body {
 
 .main {
 	width: 100%;
+	margin-bottom: 60px;
 
 	@include respond-min {
-		width: 70%;
-		margin: 0 15%;
-		display: inline-block;
+		width: 670px;
+		margin: 0 auto 60px;
+		display: block;
 	}
 }
