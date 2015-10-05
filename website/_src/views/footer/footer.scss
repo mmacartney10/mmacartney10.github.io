@@ -13,6 +13,7 @@
 	    padding: 0;
 	    margin: 0;
 	    display: inline-block;
+	    float: left;
 	}
 
 	&__item {
@@ -27,14 +28,14 @@
 		color: $c-white;
 		float: right;
 		margin: 0;
-		padding: 20px 0;
+		padding: 10px 0 0;
 	}
 
 	&__link {
 		text-decoration: none;
 		color: $c-white;
 		display: inline-block;
-		padding: 20px 0;
+		padding: 10px 0 5px;
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;
 		-o-transition: all 0.3s ease;
