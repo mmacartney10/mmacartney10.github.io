@@ -10,6 +10,8 @@
     &__image {
     	width: auto;
         height: 300px;
+        margin: 0 auto;
+        display: block;
 
         @include respond-max {
             width: 150%;
