@@ -5,8 +5,24 @@ body {
 	font-family: 'Open Sans',Verdana,Arial,sans-serif;
 }
 
+@mixin respond-min {
+	@media screen and (min-width: 670px) {
+		@content;
+	}
+}
+
 @mixin respond-max {
 	@media screen and (max-width: 670px) {
 		@content;
+	}
+}
+
+.main {
+	width: 100%;
+
+	@include respond-min {
+		width: 70%;
+		margin: 0 15%;
+		display: inline-block;
 	}
 }
