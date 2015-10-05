@@ -29,8 +29,6 @@
 		overflow: hidden;
 
 		@include respond-max {
-			width: 40px;
-			height: 40px;
 			margin-right: 0;
 		}
 
@@ -38,10 +36,6 @@
 			height: 60px;
 			position: relative;
 			left: -30%;
-
-			@include respond-max {
-				height: 40px;
-			}
 		}
 	}
 }
