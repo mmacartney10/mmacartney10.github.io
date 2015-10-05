@@ -100,7 +100,7 @@ gulp.task('compile-html', function(){
 	gulp.src(src.views + '/*.hbs')
 		.pipe(handlebars(data, options))
 		.pipe(rename({extname: '.html'}))
-		.pipe(minifyHTML())
+		//.pipe(minifyHTML())
 		.pipe(gulp.dest(config.dest));
 });
 
