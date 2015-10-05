@@ -1,0 +1,57 @@
+//footer styles
+
+.footer {
+	background-color: #49BDCA;
+    width: 96%;
+    padding: 0 2%;
+	display: inline-block;
+
+	&__list {
+	    padding: 0;
+	    margin: 0;
+	    display: inline-block;
+	}
+
+	&__item {
+	    list-style-type: none;
+	    display: inline-block;
+	    padding: 0 10px;
+	    color: #fff;
+	}
+
+	&__content {
+		display: inline-block;
+		color: #fff;
+		float: right;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #fff;
+		display: inline-block;
+		padding: 16px 0;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+
+		&:hover {
+			-webkit-transform: rotateY(360deg);
+			-moz-transform: rotateY(360deg);
+			-o-transform: rotateY(360deg);
+			-ms-transform: rotateY(360deg);
+			transform: rotateY(360deg);
+		}
+	}
+}
+
+.social__twitter:before {
+	content: '';
+	display: inline-block;
+	background-image: url("./twitter.png");
+	background-size: contain;
+	width: 27px;
+	height: 22px;
+	background-repeat: no-repeat;
+}

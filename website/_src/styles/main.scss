@@ -1,0 +1,36 @@
+/* ============================================================ *\
+
+  #MAIN
+
+
+/* ============================================================ *\
+
+
+/**
+* CONTENTS
+* 
+* _GENERIC
+* defaut styles
+* 
+* BANNER
+* banner styles 
+* 
+* FOOTER
+* footer styles
+* 
+* HEADER
+* header - styles for header
+* 
+* STRIP
+* strip styles
+*
+*/
+
+
+
+
+@import "_generic/default.scss";
+@import "../views/banner/banner.scss";
+@import "../views/footer/footer.scss";
+@import "../views/header/header.scss";
+@import "../views/strip/strip.scss";

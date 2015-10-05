@@ -1,0 +1,53 @@
+//banner styles 
+
+.banner {
+    width: 100%;
+    margin-top: 42px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+
+    &__image {
+    	width: 100%;
+
+        @include respond-max {
+            width: 150%;
+            position: relative;
+            left: -40%;
+        }
+    }
+
+    &__title {
+		position: absolute;
+		bottom: 0;
+		color: #424242;
+		width: 100%;
+		text-align: center;
+		text-transform: capitalize;
+
+        &-sub, &-main {
+            width: 100%;
+            display: inline-block;
+        }
+
+        &-sub {
+            font-size: 25px;
+
+            @include respond-max {
+                font-size: 20px;
+            }
+        }
+
+        &-main {
+            font-size: 40px;
+
+            @include respond-max {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,12 @@
+//defaut styles
+
+body {
+	margin: 0;
+	font-family: 'Open Sans',Verdana,Arial,sans-serif;
+}
+
+@mixin respond-max {
+	@media screen and (max-width: 670px) {
+		@content;
+	}
+}
