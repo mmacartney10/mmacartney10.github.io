@@ -24,4 +24,8 @@
 		background-color: $c-white;
 		color: $c-black;
 	}
+
+	&__content li:after {
+		content: ' |'
+	}
 }
